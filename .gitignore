@@ -6,3 +6,4 @@
 .idea/misc.xml
 .envrc
 .DS_Store
+*.pyc
