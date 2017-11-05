@@ -6,7 +6,6 @@ Really I don't expect other developers for this project but I like to have this 
 Text editors I use, you can use whatever:
 
 * Python Backend: [PyCharm](https://www.jetbrains.com/pycharm/)
-* ReactJS Frontend: [Sublime Text 3](https://www.sublimetext.com/3)
 
 Good, you can change text documents. Whoopie do. 
 
@@ -35,7 +34,7 @@ Let's save some hassle in the future. First, let's figure out where that `virtua
 
 Then get and setup [direnv](https://direnv.net/). Make a `.envrc` file in this directory and add the following lines to it.
 
-
+    export WORKON_HOME=~/.virtualenvs
     export VIRTUALENVWRAPPER_PYTHON=/python3/location
     source /virtualenvwrapper.sh/location/
 
